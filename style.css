@@ -11,6 +11,9 @@
     --purple: #7c3aed;
     --gray-200: #e2e8f0;
     --gray-400: #94a3b9;
+    --white: #fff;
+
+
 
 
 
@@ -76,7 +79,7 @@ font-weight: 600;
 .login input{
     padding: 1rem 0.75rem;
     border: 1px solid var(--gray-200);
-    border-radius: o.25rem;
+    border-radius: 0.25rem;
     color: var(--gray-800);
 
 }
@@ -84,7 +87,7 @@ font-weight: 600;
 .login input:hover,
 .login input:focus{
       outline: 1px solid var(--purple);
-      
+
 
 }
 
@@ -102,4 +105,17 @@ color: var(--gray-400);
 
 .login a:houver{
     text-decoration: underline;
+}
+
+.login button {
+    margin-top: 1rem;
+    padding-block: 1rem;
+    width: 100%;
+    background: var(--purple);
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--white);
+
 }
