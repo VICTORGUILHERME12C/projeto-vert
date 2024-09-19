@@ -12,6 +12,8 @@
     --gray-200: #e2e8f0;
     --gray-400: #94a3b9;
     --white: #fff;
+    --light-purple: #9F67FF;
+
 
 
 
@@ -128,6 +130,13 @@ color: var(--gray-400);
     color: var(--gray-600)
 }
 
+.login button:hover{
+background-color: var(--light-purple);
+transition: 0.3s;
+cursor: pointer;
+}
+
+
 .login > p a{
     font-weight: 700;
     font-size: 1rem;
@@ -146,16 +155,37 @@ color: var(--gray-400);
         background: none;
         justify-content: flex-start;
         padding-inline: 7rem;
+        margin: 2.5rem 7rem 7rem;
+      
+        height: fit-content;
+        
+
     }
     header img{
         width: 10rem;
     }
     main {
-        padding-inline: 7rem;
+        margim-inline: 7rem;
+        max-width: 24rem;
+        padding: 0;
     }
+    
+.conteudo{
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    
+}
 
  .bg-desktop{
     display: block;
+    width: 100%;
  }   
-    
+
+ .descricao h1 {
+ font-size: 1rem ;
+
+ }
+
 }
