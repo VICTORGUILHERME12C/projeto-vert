@@ -44,14 +44,15 @@ main{
 }
 
 .descricao h1{
-    color: var(--gray-800)
+    color: var(--gray-800);
     margin-bottom: 1rem;
     font-size: 1.5625rem;
 }
 
 .descricao p{
     font-size: 0.8125rem;
-    color: var(--gray-600)
+    color: var(--gray-600);
+    margin-bottom: 1rem;
 }
 
 .input-box {
@@ -96,19 +97,22 @@ color: var(--gray-400);
 
 }
 
-.login a{
+.login a {
     color: var(--purple);
     text-decoration: none;
-     font-size: 0.075rem;
-     font-weight: 600; 
+    font-weight: 600;
+    font-size: 0.875rem;
+    
 }
 
-.login a:houver{
+.login a:hover{
     text-decoration: underline;
 }
 
+
 .login button {
     margin-top: 1rem;
+    margin-bottom: 2rem;
     padding-block: 1rem;
     width: 100%;
     background: var(--purple);
@@ -118,4 +122,13 @@ color: var(--gray-400);
     font-weight: 700;
     color: var(--white);
 
+}
+
+.login > p{
+    color: var(--gray-600)
+}
+
+.login > p a{
+    font-weight: 700;
+    font-size: 1rem;
 }
