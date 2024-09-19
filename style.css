@@ -30,7 +30,7 @@ main{
 }
 
 .descricao {
-    border : 1px solid red;
+   
     margin-bottom: 2.5rem;
 }
 
@@ -43,4 +43,22 @@ main{
 .descricao p{
     font-size: 0.8125rem;
     color: var(--gray-600)
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box div{
+display: flex;
+justify-content: space-between;
+font-weight: 600;
+
+}
+
+.login label {
+    font-size: 0.875rem;
+    color: var(--gray-800);
+    font-weight: 600;
 }
